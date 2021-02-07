@@ -94,3 +94,4 @@ catkin_make
 source ~/catkin_ws/devel/setup.bash
 roslaunch clover_simulation simulator.launch
 ```
+> **Note** При возникновении ошибки сборки симулятора:`gz: symbol lookup error: /usr/lib/x86_64-linux-gnu/libgazebo_common.so.9: undefined symbol: _ZN8ignition10fuel_tools12ClientConfig12SetUserAgentERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE`, обновите библиотеку при помощи ввода в консоль:`sudo apt upgrade libignition-math2`
